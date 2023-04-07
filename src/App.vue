@@ -5,11 +5,12 @@
 </template>
 <script>
 import enargyData from "./db/daily_energy_stat.json"
+import * as echarts from "echarts"
 export default {
   name: 'App', 
   methods: {
     drawCahrt() {
-      
+
     }
   }
 }
