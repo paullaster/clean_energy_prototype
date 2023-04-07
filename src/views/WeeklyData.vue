@@ -1,7 +1,5 @@
 <template>
-    <div>
-        Weekly energy Data
-    </div>
+   <h1> Weekly energy Data</h1>
 </template>
 <script>
 export default {
