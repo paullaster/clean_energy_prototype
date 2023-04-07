@@ -1,0 +1,58 @@
+{
+    "date": "2023-02-07",
+    "hourly_production": [
+      {
+        "hour": "07:00",
+        "production": 50
+      },
+      {
+        "hour": "08:00",
+        "production": 60
+      },
+      {
+        "hour": "09:00",
+        "production": 70
+      },
+      {
+        "hour": "10:00",
+        "production": 80
+      },
+      {
+        "hour": "11:00",
+        "production": 90
+      },
+      {
+        "hour": "12:00",
+        "production": 100
+      },
+      {
+        "hour": "13:00",
+        "production": 120
+      },
+      {
+        "hour": "14:00",
+        "production": 140
+      },
+      {
+        "hour": "15:00",
+        "production": 130
+      },
+      {
+        "hour": "16:00",
+        "production": 110
+      },
+      {
+        "hour": "17:00",
+        "production": 70
+      },
+      {
+        "hour": "18:00",
+        "production": 50
+      },
+      {
+        "hour": "19:00",
+        "production": 30
+      }
+    ]
+  }
+  
