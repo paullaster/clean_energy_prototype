@@ -9,45 +9,21 @@ export default {
   methods: {
     drawChart() {
       const chart = echarts.init(this.$refs.lineChart);
-      const uniqueDates = [...new Set(this.data.map((stat) => stat.date))];
-      const groupedData = uniqueDates.map((date) => {
-        return this.data.filter((stat) => {
-          return stat.date === date;
-        });
-      });
-      const seriesData = groupedData.map(function (innerData) {
-        const date = innerData[0].date;
-        const seriesItem = {
-          name: date,
-          type: "line",
-          data: innerData.map(function (item) {
-            return {
-              name: item.user_id,
-              value: ((item.user_total_activities_per_day / item.total_activities_per_day) * 100).toFixed(
-                2
-              ),
-            };
-          }),
-        };
-        return seriesItem;
-      });
-      const option = {
-        title: {
-          text: "",
-        },
-        tooltip: {},
-        // legend: {
-        // //     top: '',
-        // //   data: uniqueDates,
-        // },
+      option = {
         xAxis: {
-          type: "category",
-          data: uniqueDates,
+          type: 'category',
+          data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
         },
         yAxis: {
-          type: "value",
+          type: 'value'
         },
-        series: seriesData,
+        series: [
+          {
+            data: [820, 932, 901, 934, 1290, 1330, 1320],
+            type: 'line',
+            smooth: true
+          }
+        ]
       };
       chart.setOption(option);
     },
