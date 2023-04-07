@@ -30,7 +30,7 @@
           },
           series: [
             {
-              data: energyData.hourly_production.map(
+              data: energyData.clean_energy_production.map(
                 (data) => {
                   return data.production;
                 }
