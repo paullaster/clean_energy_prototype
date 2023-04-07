@@ -1,0 +1,30 @@
+{
+    "production": [
+      {
+        "solar": 100,
+        "wind": 200,
+        "hydro": 150,
+        "total": 450
+      },
+      {
+        "solar": 120,
+        "wind": 180,
+        "hydro": 170,
+        "total": 470
+      },
+      {
+        "solar": 150,
+        "wind": 220,
+        "hydro": 160,
+        "total": 530
+      },
+      {
+        "solar": 130,
+        "wind": 190,
+        "hydro": 180,
+        "total": 500
+      }
+    ],
+    "units": "barrels"
+  }
+  

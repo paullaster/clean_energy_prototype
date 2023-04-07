@@ -17,6 +17,14 @@ const routes = [
             hourlyGraph: DailyEnergyData,
         },
         
+    },
+    {
+        path: '/weekly_data',
+        components: {
+            default: DailyData,
+            hourlyGraph: DailyEnergyData,
+        },
+        
     }
 ];
 
