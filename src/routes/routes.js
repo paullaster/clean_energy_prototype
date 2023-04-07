@@ -3,9 +3,7 @@ import {HourlyData} from "../views";
 const routes = [
     {
         path: '/hourlyData',
-        components : {
-            default: HourlyData,
-        }
+        component: HourlyData,
     }
 ];
 
