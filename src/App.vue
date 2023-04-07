@@ -1,4 +1,10 @@
 <template>
+  <sidebar>
+    
+  </sidebar>
+  <main>
+
+  </main>
   <HourlyEnergyData />
 </template>
 <script>
