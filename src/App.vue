@@ -1,7 +1,5 @@
 <template>
-  <div>
-    
-  </div>
+  <HourlyEnergyData />
 </template>
 <script>
 import {HourlyEnergyData} from './views'

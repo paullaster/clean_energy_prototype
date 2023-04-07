@@ -1,4 +1,4 @@
-import HourlyEnergyData from './HourlyEnergyData'
+import HourlyEnergyData from './HourlyEnergyData.vue'
 
 export {
     HourlyEnergyData,

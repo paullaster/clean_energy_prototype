@@ -2,7 +2,7 @@
     <div class="card-size" ref="lineChart"></div>
   </template>
   <script>
-  import energyData from "./db/daily_energy_stat.json"
+  import energyData from "../db/daily_energy_stat.json"
   import * as echarts from "echarts"
   export default {
     name: 'App',
