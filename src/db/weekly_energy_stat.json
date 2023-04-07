@@ -1,0 +1,33 @@
+{
+    "clean_energy_production": [
+      {
+        "date": "2023-04-01",
+        "production": 2500
+      },
+      {
+        "date": "2023-04-02",
+        "production": 2800
+      },
+      {
+        "date": "2023-04-03",
+        "production": 2650
+      },
+      {
+        "date": "2023-04-04",
+        "production": 2900
+      },
+      {
+        "date": "2023-04-05",
+        "production": 3100
+      },
+      {
+        "date": "2023-04-06",
+        "production": 3000
+      },
+      {
+        "date": "2023-04-07",
+        "production": 2800
+      }
+    ]
+  }
+  

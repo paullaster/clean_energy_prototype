@@ -14,7 +14,7 @@
         const chart = echarts.init(this.$refs.lineChart);
         const option = {
           title: {
-            text: `Energy data in barrels for date ${energyData.date}`
+            text: `Energy data for date ${energyData.date}`
           },
           tooltip: {},
           xAxis: {
