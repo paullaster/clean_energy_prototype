@@ -7,7 +7,10 @@
 import enargyData from "./db/daily_energy_stat.json"
 export default {
   name: 'App', 
-
-
+  methods: {
+    drawCahrt() {
+      
+    }
+  }
 }
 </script>
