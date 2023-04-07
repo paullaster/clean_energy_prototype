@@ -1,5 +1,5 @@
 <template>
-    <h1>Hourly data</h1>
+    <h1>Daily data</h1>
 </template>
 <script>
 export default {
