@@ -1,12 +1,13 @@
 <template>
-    <div>
-        
-    </div>
+    <HourlyEnergyData />
 </template>
 <script>
 import HourlyEnergyData from "../components"
 export default {
     name: "HourlyDataView",
+    components: {
+        HourlyEnergyData
+    }
 
 }
 </script>

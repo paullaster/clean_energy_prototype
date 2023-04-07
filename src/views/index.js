@@ -1,5 +1,5 @@
-import HourlyEnergyData from '../components/HourlyEnergyData.vue'
+import HourlyData from './HourlyData.vue'
 
 export {
-    
+    HourlyData
 }
