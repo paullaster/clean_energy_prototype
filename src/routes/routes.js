@@ -1,9 +1,13 @@
 import { createRouter, createWebHistory } from "vue-router";
 import {HourlyData} from "../views";
+import { HourlyEnergyData } from "../components";
 const routes = [
     {
         path: '/hourlyData',
-        component: HourlyData,
+        components: {
+            default: HourlyData,
+            hourlyGraph: HourlyEnergyData,
+        },
     }
 ];
 
