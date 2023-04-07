@@ -3,7 +3,7 @@ import {HourlyData} from "../views";
 import { HourlyEnergyData } from "../components";
 const routes = [
     {
-        path: '/hourlyData',
+        path: '/',
         components: {
             default: HourlyData,
             hourlyGraph: HourlyEnergyData,

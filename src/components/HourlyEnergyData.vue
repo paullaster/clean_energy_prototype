@@ -13,6 +13,10 @@
       drawChart() {
         const chart = echarts.init(this.$refs.lineChart);
         const option = {
+          title: {
+            text: `Energy data in barrels for date ${energyData.date}`
+          },
+          tooltip: {},
           xAxis: {
             type: 'category',
             data: energyData.hourly_production.map(
