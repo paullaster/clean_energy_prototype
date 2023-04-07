@@ -2,7 +2,14 @@
   <div class="grid">
     <sidebar class="sidebar">
       <h1>Dashboard</h1>
-      <router-link to="/">Hourly Data Graph</router-link>
+      <div>
+        <div>
+          <router-link to="/">Hourly Data Graph</router-link>
+        </div>
+        <div>
+          <router-link to="/daily_data">Daily Data Graph</router-link>
+        </div>
+      </div>
     </sidebar>
     <main class="main">
       <router-view></router-view>
@@ -22,24 +29,28 @@ export default {
 <style>
 *,
 *::before,
-*::after{
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.grid{
+
+.grid {
   display: grid;
   grid-template-columns: 2fr 10fr;
 }
+
 .sidebar {
   background-color: #1c2e4a !important;
   padding: 4% !important;
   color: #fff;
 }
-a{
+
+a {
   text-decoration: none;
   color: #fff;
 }
+
 .main {
   padding-left: 4%;
   color: #fff;
