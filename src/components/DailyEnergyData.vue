@@ -2,7 +2,7 @@
     <div class="card-size" ref="lineChart"></div>
   </template>
   <script>
-  import energyData from "../"
+  import energyData from "../db/weekly_energy_stat.json";
   import * as echarts from "echarts"
   export default {
     name: 'App',
@@ -14,14 +14,14 @@
         const chart = echarts.init(this.$refs.lineChart);
         const option = {
           title: {
-            text: `Energy data for date ${energyData.date}`
+            text: `Energy weekly energy data`
           },
           tooltip: {},
           xAxis: {
             type: 'category',
-            data: energyData.hourly_production.map(
+            data: energyData.clean_energy_production.map(
               (data) => {
-                return data.hour;
+                return data.date;
               }
             )
           },
