@@ -1,5 +1,5 @@
 <template>
-  <div ref="lineCahrt">
+  <div ref="lineChart">
     chart to appear here
   </div>
 </template>
@@ -10,7 +10,7 @@ export default {
   name: 'App', 
   methods: {
     drawCahrt() {
-
+      echarts.init(this.$refs.lineChart)
     }
   }
 }
