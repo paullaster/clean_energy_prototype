@@ -19,24 +19,55 @@
           tooltip: {},
           xAxis: {
             type: 'category',
-            data: energyData.production.map(
-              (data) => {
-                return data.date;
-              }
-            )
+            data: ['week1', 'week2', 'week3', 'week4']
           },
           yAxis: {
             type: 'value'
           },
           series: [
             {
-              data: energyData.clean_energy_production.map(
-                (data) => {
-                  return data.production;
-                }
-              ),
+              name: 'solar',
               type: 'line',
-              smooth: true
+              smooth: true,
+              data: [
+                energyData.production[0].solar,
+                energyData.production[1].solar,
+                energyData.production[2].solar,
+                energyData.production[3].solar
+              ]
+            },
+            {
+              name: 'wind',
+              type: 'line',
+              smooth: true,
+              data: [
+                energyData.production[0].wind,
+                energyData.production[1].wind,
+                energyData.production[2].wind,
+                energyData.production[3].wind
+              ]
+            },
+            {
+              name: 'hydro',
+              type: 'line',
+              smooth: true,
+              data: [
+                energyData.production[0].hydro,
+                energyData.production[1].hydro,
+                energyData.production[2].hydro,
+                energyData.production[3].hydro
+              ]
+            },
+            {
+              name: 'total',
+              type: 'line',
+              smooth: true,
+              data: [
+                energyData.production[0].total,
+                energyData.production[1].total,
+                energyData.production[2].total,
+                energyData.production[3].total
+              ]
             }
           ]
         };
@@ -52,3 +83,4 @@
     height: 80vh;
   }
   </style>
+  
