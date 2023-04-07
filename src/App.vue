@@ -9,6 +9,9 @@
         <div class="item">
           <router-link to="/daily_data">Daily Data Graph</router-link>
         </div>
+        <div class="item">
+          <router-link to="/weekly_data">Weekly Data Graph</router-link>
+        </div>
       </div>
     </sidebar>
     <main class="main">
