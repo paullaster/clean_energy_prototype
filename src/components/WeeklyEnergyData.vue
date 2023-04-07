@@ -14,12 +14,12 @@
         const chart = echarts.init(this.$refs.lineChart);
         const option = {
           title: {
-            text: `Energy weekly energy data in barrels`
+            text: `Energy monthly energy data in barrels`
           },
           tooltip: {},
           xAxis: {
             type: 'category',
-            data: energyData.clean_energy_production.map(
+            data: energyData.production.map(
               (data) => {
                 return data.date;
               }
