@@ -1,6 +1,6 @@
 <template>
   <sidebar>
-    <router-link to="/">Go to Home</router-link>
+    <router-link to="/">Go to </router-link>
   </sidebar>
   <main>
 
