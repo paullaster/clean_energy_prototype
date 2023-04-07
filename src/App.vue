@@ -2,11 +2,11 @@
   <div class="grid">
     <sidebar class="sidebar">
       <h1>Dashboard</h1>
-      <div>
-        <div>
+      <div class="nav">
+        <div class="item">
           <router-link to="/">Hourly Data Graph</router-link>
         </div>
-        <div>
+        <div class="item">
           <router-link to="/daily_data">Daily Data Graph</router-link>
         </div>
       </div>
@@ -45,13 +45,19 @@ export default {
   padding: 4% !important;
   color: #fff;
 }
-
+.nav{
+  margin-top: 4%;
+}
+.item {
+  margin-top: 4% !important;
+}
 a {
   text-decoration: none;
   color: #fff;
 }
 
 .main {
+  padding-top: 4% !important;
   padding-left: 4%;
   color: #fff;
   background-color: #151922;
